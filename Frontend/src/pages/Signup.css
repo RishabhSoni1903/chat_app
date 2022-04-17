@@ -1,0 +1,25 @@
+.userProfilePicture_container{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.userProfilePicture{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: rgb(0, 87, 128);
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+    border-radius: 50%;
+}
